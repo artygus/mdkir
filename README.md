@@ -9,8 +9,8 @@ Inspired by [sl](https://github.com/mtoyoda/sl) and [kgorin](https://github.com/
 ### OSX
 
 ```shell
-git clone https://github.com/artygus/mdkir.git && cd mdkir
-brew install --HEAD mdkir.rb
+curl -L https://raw.githubusercontent.com/artygus/mdkir/main/mdkir.rb > /tmp/mdkir.rb
+brew reinstall -s /tmp/mdkir.rb
 ```
 
 ### Linux
