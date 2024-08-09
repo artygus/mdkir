@@ -33,9 +33,19 @@ void draw_kir(int x) {
     KSTR033
   };
 
+  const char brows[3][42] = {
+    KSTR113, KSTR114, KSTR115
+  };
+
   for (int i = 0; i < 32; i++) {
     for (int j = 0; j < 41; j++) {
-      mvaddch((LINES-33) / 2 + i, j + x, kir[i][j]);
+      char ch = kir[i][j];
+
+      if (x % 5 == 0 && i >= 12 && i <= 14) {
+        ch = brows[i - 12][j];
+      }
+
+      mvaddch((LINES-33) / 2 + i, j + x, ch);
     }
   }
 }

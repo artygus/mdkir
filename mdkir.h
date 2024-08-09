@@ -31,3 +31,7 @@
 #define KSTR031 "                 &&&&&&X;+;&$&&&         "
 #define KSTR032 "                    &&&&&&&&&&&          "
 #define KSTR033 "                                         "
+
+#define KSTR113 "  &+ ;+;    .:;;;.::.:. ;+x+;.&&&&&&     "
+#define KSTR114 "  &$x;+;      &&&&&&$  ;:;::.;           "
+#define KSTR115 "   :$:       +       .     ;+.    .      "
