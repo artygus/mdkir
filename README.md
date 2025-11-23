@@ -4,13 +4,13 @@ mdkir is the anagram for the `mkdir` command.
 
 Inspired by [sl](https://github.com/mtoyoda/sl) and [kgorin](https://github.com/kgorin).
 
-## Install
+## Installation
 
 ### OSX
 
 ```shell
-curl -L https://raw.githubusercontent.com/artygus/mdkir/main/mdkir.rb > /tmp/mdkir.rb
-brew reinstall -s /tmp/mdkir.rb
+brew install artygus/tap/mdkir
+mdkir
 ```
 
 ### Linux
